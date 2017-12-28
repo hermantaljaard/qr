@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_equipment_tyoe</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>herman.t</sys_created_by>
+        <sys_created_on>2017-12-14 01:11:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>efec63c16f430300db3952b10b3ee409</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_equipment_tyoe</sys_name>
+        <sys_package display_value="Onboard Customer Services" source="x_63311_qr">c83b13456f030300db3952b10b3ee4c0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Onboard Customer Services">c83b13456f030300db3952b10b3ee4c0</sys_scope>
+        <sys_update_name>sys_ui_policy_action_efec63c16f430300db3952b10b3ee409</sys_update_name>
+        <sys_updated_by>herman.t</sys_updated_by>
+        <sys_updated_on>2017-12-14 01:11:39</sys_updated_on>
+        <table>x_63311_qr_onboard_customer_services_table</table>
+        <ui_policy display_value="Show equipment type">36ccaf816f430300db3952b10b3ee44a</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

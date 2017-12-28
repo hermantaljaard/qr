@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Onboard Customer Services Table" max_length="40" name="x_63311_qr_onboard_customer_services_table" sizeclass="2" type="collection">
+        <element label="Between stations" max_length="40" name="u_between_stations" type="string"/>
+        <element label="Car number" max_length="40" name="u_car_number" type="string"/>
+        <element choice="1" dependent="u_ticket_type" dependent_on_field="u_ticket_type" label="Category" max_length="40" name="u_category" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="equipment" label="Catering equipment" sequence="0" value="Catering equipment"/>
+                <element dependent_value="catering" label="Food quality" sequence="0" value="Food quality"/>
+                <element dependent_value="equipment" label="Other train equipment" sequence="1" value="Other train equipment"/>
+                <element dependent_value="catering" label="Special dietary requirements" sequence="1" value="Special dietary requirements"/>
+                <element dependent_value="catering" label="Provisioning" sequence="2" value="Provisioning"/>
+                <element dependent_value="catering" label="General catering" sequence="3" value="General catering"/>
+            </choice>
+        </element>
+        <element label="Corrective action request?" max_length="40" name="u_corrective_action_request" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_subcategory" dependent_on_field="u_subcategory" label="Equipment type" max_length="40" name="u_equipment_tyoe" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Catering equipment" label="Point of Sale &amp; EFTPOS" sequence="0" value="Point of Sale &amp; EFTPOS"/>
+                <element dependent_value="Catering equipment" label="Oven" sequence="1" value="Oven"/>
+                <element dependent_value="Catering equipment" label="Coffee makers" sequence="2" value="Coffee makers"/>
+                <element dependent_value="Catering equipment" label="Refridgeration" sequence="3" value="Refridgeration"/>
+                <element dependent_value="Catering equipment" label="Other" sequence="4" value="Other"/>
+            </choice>
+        </element>
+        <element label="Kilometre peg" max_length="40" name="u_kilometre_peg" type="string"/>
+        <element label="Occurrence time" max_length="40" name="u_occurrence_time" type="glide_time"/>
+        <element choice="1" label="Position" max_length="40" name="u_position" type="choice">
+            <choice>
+                <element label="PSC" value="psc"/>
+                <element label="PSS" value="pss"/>
+            </choice>
+        </element>
+        <element label="Reported to RTC" max_length="40" name="u_reported_rtc" type="boolean"/>
+        <element label="Rough ride" max_length="40" name="u_rough_ride" type="boolean"/>
+        <element label="Sector" max_length="40" name="u_sector" type="string"/>
+        <element choice="1" dependent="u_category" dependent_on_field="u_category" label="Subcategory" max_length="40" name="u_subcategory" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Equipment" label="Catering equipment" sequence="0" value="Catering equipment"/>
+                <element dependent_value="Catering" label="Food quality" sequence="0" value="Food quality"/>
+                <element dependent_value="Catering equipment" label="Point of Sale/EFTPOS" sequence="0" value="Point of Sale/EFTPOS"/>
+                <element dependent_value="Catering equipment" label="Coffee maker" sequence="1" value="Coffee maker"/>
+                <element dependent_value="Equipment" label="Other train equipment" sequence="1" value="Other train equipment"/>
+                <element dependent_value="Catering" label="Special dietary requirements" sequence="1" value="Special dietary requirements"/>
+                <element dependent_value="Catering equipment" label="Oven" sequence="2" value="Oven"/>
+                <element dependent_value="Catering" label="Provisioning" sequence="2" value="Provisioning"/>
+                <element dependent_value="Catering" label="General catering" sequence="3" value="General catering"/>
+                <element dependent_value="Catering equipment" label="Refridgeration" sequence="3" value="Refridgeration"/>
+                <element dependent_value="Catering equipment" label="Microwave oven" sequence="4" value="Microwave oven"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Ticket type" max_length="40" name="u_ticket_type" type="string">
+            <choice>
+                <element label="Train movement" sequence="0" value="train movement"/>
+                <element label="Catering" sequence="1" value="catering"/>
+                <element label="Equipment" sequence="2" value="equipment"/>
+                <element label="Ticketing/Customer" sequence="3" value="ticketing/customer"/>
+                <element label="Baggage" sequence="4" value="baggage"/>
+                <element label="Post trip report" sequence="5" value="post trip report"/>
+            </choice>
+        </element>
+        <element label="Train in motion" max_length="40" name="u_train_in_motion" type="boolean"/>
+        <element label="Train lurch" max_length="40" name="u_train_lurch" type="boolean"/>
+        <element label="Train number" max_length="40" name="u_train_number" type="string"/>
+        <element label="Trip code" max_length="40" name="u_trip_code" type="string"/>
+    </element>
+</database>

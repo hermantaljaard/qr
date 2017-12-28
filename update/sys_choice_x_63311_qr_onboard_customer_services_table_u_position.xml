@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_position" table="x_63311_qr_onboard_customer_services_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PSC</label>
+            <language>en</language>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sequence/>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 01:51:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a516bf096f430300db3952b10b3ee4e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 01:51:24</sys_updated_on>
+            <value>psc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PSS</label>
+            <language>en</language>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sequence/>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 01:51:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14067b496f430300db3952b10b3ee483</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 01:51:05</sys_updated_on>
+            <value>pss</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_position</element>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 01:51:05</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>9e06f7096f430300db3952b10b3ee416</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_position</sys_name>
+            <sys_package display_value="Onboard Customer Services" source="x_63311_qr">c83b13456f030300db3952b10b3ee4c0</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Onboard Customer Services">c83b13456f030300db3952b10b3ee4c0</sys_scope>
+            <sys_update_name>sys_choice_x_63311_qr_onboard_customer_services_table_u_position</sys_update_name>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 01:51:05</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

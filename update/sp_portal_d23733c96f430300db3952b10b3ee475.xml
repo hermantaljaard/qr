@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <default>false</default>
+        <homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>herman.t</sys_created_by>
+        <sys_created_on>2017-12-14 01:56:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d23733c96f430300db3952b10b3ee475</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Onboard Customer Services</sys_name>
+        <sys_package display_value="Onboard Customer Services" source="x_63311_qr">c83b13456f030300db3952b10b3ee4c0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Onboard Customer Services">c83b13456f030300db3952b10b3ee4c0</sys_scope>
+        <sys_update_name>sp_portal_d23733c96f430300db3952b10b3ee475</sys_update_name>
+        <sys_updated_by>herman.t</sys_updated_by>
+        <sys_updated_on>2017-12-14 01:56:56</sys_updated_on>
+        <theme/>
+        <title>Onboard Customer Services</title>
+        <url_suffix>obcs</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=d23733c96f430300db3952b10b3ee475"/>
+</record_update>

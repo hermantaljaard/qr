@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_category" table="x_63311_qr_onboard_customer_services_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Baggage</label>
+            <language>en</language>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 00:59:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc4aeb016f430300db3952b10b3ee4d0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 01:33:21</sys_updated_on>
+            <value>Baggage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>equipment</dependent_value>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Catering equipment</label>
+            <language>en</language>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 01:36:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fa2f7856f430300db3952b10b3ee424</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 01:36:24</sys_updated_on>
+            <value>Catering equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>catering</dependent_value>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Food quality</label>
+            <language>en</language>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 01:35:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c723f856f430300db3952b10b3ee4d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 01:35:23</sys_updated_on>
+            <value>Food quality</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Catering</label>
+            <language>en</language>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 00:59:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>304aeb016f430300db3952b10b3ee4d3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 01:33:21</sys_updated_on>
+            <value>Catering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>equipment</dependent_value>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other train equipment</label>
+            <language>en</language>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 01:36:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dba2f7856f430300db3952b10b3ee426</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 01:36:24</sys_updated_on>
+            <value>Other train equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>catering</dependent_value>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Special dietary requirements</label>
+            <language>en</language>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 01:35:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98723f856f430300db3952b10b3ee4d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 01:35:23</sys_updated_on>
+            <value>Special dietary requirements</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Equipment</label>
+            <language>en</language>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 00:59:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc4aeb016f430300db3952b10b3ee4d4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 01:33:21</sys_updated_on>
+            <value>Equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>catering</dependent_value>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Provisioning</label>
+            <language>en</language>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 01:35:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18723f856f430300db3952b10b3ee4d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 01:35:23</sys_updated_on>
+            <value>Provisioning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>catering</dependent_value>
+            <element>u_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General catering</label>
+            <language>en</language>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sequence>3</sequence>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 01:35:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94723f856f430300db3952b10b3ee4d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 01:35:23</sys_updated_on>
+            <value>General catering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Ticketing/Customer</label>
+            <language>en</language>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sequence>3</sequence>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 00:59:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c4aeb016f430300db3952b10b3ee4d6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 01:33:21</sys_updated_on>
+            <value>Ticketing/Customer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Train movement</label>
+            <language>en</language>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sequence>4</sequence>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 00:59:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>344aa3416f430300db3952b10b3ee45b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 01:33:21</sys_updated_on>
+            <value>Train movement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_category</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Post trip report</label>
+            <language>en</language>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sequence>5</sequence>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 00:59:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b04aa3416f430300db3952b10b3ee45d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 01:33:21</sys_updated_on>
+            <value>Post trip report</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_category</element>
+            <name>x_63311_qr_onboard_customer_services_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>herman.t</sys_created_by>
+            <sys_created_on>2017-12-14 00:59:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f84aeb016f430300db3952b10b3ee4d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_category</sys_name>
+            <sys_package display_value="Onboard Customer Services" source="x_63311_qr">c83b13456f030300db3952b10b3ee4c0</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Onboard Customer Services">c83b13456f030300db3952b10b3ee4c0</sys_scope>
+            <sys_update_name>sys_choice_x_63311_qr_onboard_customer_services_table_u_category</sys_update_name>
+            <sys_updated_by>herman.t</sys_updated_by>
+            <sys_updated_on>2017-12-14 00:59:38</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

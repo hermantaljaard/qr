@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_sector</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>herman.t</sys_created_by>
+        <sys_created_on>2017-12-14 01:43:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7644ffc56f430300db3952b10b3ee462</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_sector</sys_name>
+        <sys_package display_value="Onboard Customer Services" source="x_63311_qr">c83b13456f030300db3952b10b3ee4c0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Onboard Customer Services">c83b13456f030300db3952b10b3ee4c0</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7644ffc56f430300db3952b10b3ee462</sys_update_name>
+        <sys_updated_by>herman.t</sys_updated_by>
+        <sys_updated_on>2017-12-14 01:43:41</sys_updated_on>
+        <table>x_63311_qr_onboard_customer_services_table</table>
+        <ui_policy display_value="Show sector">d12473096f430300db3952b10b3ee4b9</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>
